@@ -253,6 +253,7 @@ section{
 
     .cuadroImagen {
         background: url(../images/cabecera.jpg) 0 -341px;
+
     }
 
     .primerParrafo {
@@ -339,5 +340,86 @@ section{
     }
  
 
+
+}
+
+@media(max-width:800px){
+
+    header {
+
+        width: 800px;
+    
+    }
+
+    section {
+
+    width: 1200px;
+}
+
+.cuadro {
+    width: 300px;
+    padding: 26px;
+}
+
+footer {
+    width: 1200px;
+}
+
+nav ul {
+    width: 408px;
+
+}
+
+.campoSuscribete {
+
+    width: 800px;
+}
+
+.primerParrafo {
+    width: 648px;
+
+}
+
+.segundoParrafo {
+    width: 648px;
+
+}
+
+.img891 {
+    width: 669px;
+}
+
+.cuadroDeTextos {
+    width: 712px;
+}
+
+input#nombre {
+    width: 703px;
+
+}
+
+input#correo {
+    width: 703px;
+}
+
+input#telefono {
+    width: 703px;
+}
+
+input#celular {
+    width: 703px;
+}
+
+textarea {
+    width: 703px;
+}
+
+.botonContacto {
+    width: 703px;
+}
+
+.campoProgramas {
+    width: 1200px;
+}
 
 }
