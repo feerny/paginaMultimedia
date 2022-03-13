@@ -423,3 +423,107 @@ textarea {
 }
 
 }
+
+@media(max-width:600px){
+
+    header {
+        width: 600px;
+    }
+
+    nav ul {
+        width: 367px;
+        padding: 31px;
+        margin-left: 254px;
+    }
+
+    .tituloPrin{
+        margin-left: -136px;
+    }
+
+    section {
+
+        width: 1000px;
+    }
+
+    .campoSuscribete {
+        width: 600px;
+    }
+
+    .TextoSuscribete {
+        font-size: 16px;
+        margin-left: -91px;
+    }
+
+    footer {
+        width: 1000px;
+    }
+
+    .campoProgramas {
+        width: 600px;
+        flex-direction: column;
+        margin-left: 332px;
+    }
+
+    .primerParrafo {
+        width: 400px;
+    }
+
+    .segundoParrafo {
+        width: 400px;
+    }
+
+    .img891 {
+        width: 422px;
+    }
+
+    .segundoCampoTexto {
+        margin-left: -145px;
+        margin-top: 15px;
+    }
+
+    .cuadroDeTextos {
+        width: 447px;
+    }
+
+    input#nombre {
+        width: 447px;
+    }
+
+    input#correo {
+        width: 447px;
+    }
+    
+    input#telefono {
+        width: 447px;
+    }
+    
+    input#celular {
+        width: 447px;
+    }
+    
+    textarea {
+        width: 447px;
+    }
+    
+    .botonContacto {
+        width: 447px;
+    }
+
+    .cuadroTextoPrimero {
+        margin-left: 99px;
+    }
+
+    .imagenMapa {
+        margin-left: 99px;
+    }
+
+    .CampoTextosNosotros {
+        padding: 0px;
+    }
+
+    .CampoTextos {
+        padding: 0px;
+
+    }
+
+}
