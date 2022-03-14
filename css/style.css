@@ -6,6 +6,10 @@ body{
     margin: 0%;
 }
 
+.clear{
+    clear: both;
+}
+
 header{
     display: flex;
     background-color: #24282B;
@@ -424,89 +428,109 @@ textarea {
 
 }
 
-@media(max-width:600px){
+@media(max-width:576px){
 
     header {
-        width: 600px;
+        width: 300px;
+        display: flex;
+        flex-direction: column;
     }
 
     nav ul {
-        width: 367px;
-        padding: 31px;
-        margin-left: 254px;
-    }
 
-    .tituloPrin{
-        margin-left: -136px;
+        margin-left: -73px;
+    }
+    .tituloPrin {
+        font-size: 36px;
+        text-align: center;
     }
 
     section {
 
-        width: 1000px;
+        width: 700px;
     }
 
     .campoSuscribete {
-        width: 600px;
+        width: 300px;
     }
 
     .TextoSuscribete {
         font-size: 16px;
-        margin-left: -91px;
+        margin-left: -189px;
+    }
+
+    .email{
+        display: flex;
+        justify-content: space-between;
     }
 
     footer {
-        width: 1000px;
+        width: 700px;
+        margin-top: 100px;
     }
 
     .campoProgramas {
         width: 600px;
         flex-direction: column;
-        margin-left: 332px;
+        margin-left: 142px;
     }
 
     .primerParrafo {
-        width: 400px;
+        width: 265px;
     }
 
     .segundoParrafo {
-        width: 400px;
+        width: 265px;
     }
 
     .img891 {
-        width: 422px;
+        width: 265px;
+        margin-left: 312px;
+        margin-top: -205px;
     }
 
     .segundoCampoTexto {
-        margin-left: -145px;
-        margin-top: 15px;
+        margin-left: -430px;
+        margin-top: 3px;
+        height: 134px;
+        width: 491px;
+    }
+    .cuadroDeTextos {
+        height: 200px;
+        width: 447px;
     }
 
-    .cuadroDeTextos {
-        width: 447px;
+    .primerCampoTexto {
+        width: 203px;
     }
 
     input#nombre {
-        width: 447px;
+        width: 257px;
     }
 
     input#correo {
-        width: 447px;
+        width: 257px;
     }
     
     input#telefono {
-        width: 447px;
+        width: 257px;
     }
     
     input#celular {
-        width: 447px;
+        width: 257px;
     }
     
     textarea {
-        width: 447px;
+        width: 257px;
+    }
+
+    .Texto {
+       
+        margin-top: 53px;
     }
     
     .botonContacto {
-        width: 447px;
+        width: 257px;
     }
 
     .cuadroTextoPrimero {
